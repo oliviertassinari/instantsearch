@@ -36,7 +36,7 @@ const config = {
   moduleNameMapper: {
     '^react-instantsearch-(.*)$':
       '<rootDir>/packages/react-instantsearch-$1/src/',
-    '^instantsearch.js$': '<rootDir>/packages/instantsearch.js/src/',
+    '^instantsearch.js(/es)?(.*)$': '<rootDir>/packages/instantsearch.js/src$2',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/packages/create-instantsearch-app/src/templates',
