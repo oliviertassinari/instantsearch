@@ -1,0 +1,6 @@
+{
+  "name": "@instantsearch/babel-testfixture",
+  "description": "A package to use as a test in extension-resolver",
+  "version": "0.0.0",
+  "main": "nested/index"
+}
